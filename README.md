@@ -7,4 +7,4 @@ Classification Trees Are Used When The Dataset Needs To Be Split Into Classes Wh
 ## How Do Classification Tree Work?
 A Classification Tree Learns A Sequence Of If Then Questions With Each Question Involving One Feature And One Split Point.In The Dataset, “petallength (cm) ≤ 2.45” Splits The Data Into Two Branches Based On Some Value (2.45 in thiscase).The Value Between The Nodes Is Called A Split Point.A Good Value(One That Results In Largest Information Gain) For A Split Point Is One That Does A Good Job Of Separating One Class From The Others.All The Points To The Left Of The Split Point Are Classified As Setosa While All The Points To The Right Of The Split Point Are Classified As Versicolor.
 ## Decision Tree Visualization
-![alt text](https://drive.google.com/file/d/1Y2wQ2IDgcEzFwIy3bu_gdEwSQPRB4jra/view?usp=sharing)
+![treevisualization](https://user-images.githubusercontent.com/68178954/102004599-3fa25c00-3d38-11eb-9f9b-862b6eaa2217.png)
