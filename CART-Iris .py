@@ -5,8 +5,10 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score
 import matplotlib.pyplot as plt
 from sklearn import tree
+from google.colab import drive
+drive.mount('/content/drive')
 #Reading The File
-dataset=pd.read_csv("Iris.csv",index_col=False)
+dataset=pd.read_csv('/content/drive/MyDrive/Colab Notebooks/Iris.csv',index_col=False)
 #Print Dataset Head
 print(dataset.head())
 #Mapping Textual Values Into Numerical Values For Machine To Understand It.
